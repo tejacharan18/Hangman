@@ -1,0 +1,75 @@
+.container-fluid {
+    background-image: url("./bg.jpg");
+    background-size: cover;
+    /* or contain, depending on your requirement */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    /* Ensures the background covers the full viewport height */
+    margin: 0;
+}
+
+body {
+}
+
+/* canvas{
+    background-color: rgb(228, 193, 193);
+} */
+h1 {
+    color: silver;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#counts {
+    background-color: red;
+}
+#clock
+{
+    color: red;
+
+    font-size: 25px;
+    /* padding: 5px 10px 5px 10px; */
+    /* margin-left: 20px; */
+}
+
+#word {
+    font-size: 30px;
+    color: azure;
+    text-align:center;
+    margin-left:430px;
+}
+
+#hint {
+    font-size: 25px;
+    text-align: center;
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#msg {
+    text-align: center;
+    font-size: 30px;
+}
+.canva
+{
+    text-align: center;
+
+}
+.warning {
+    color: red;
+}
+
+.success {
+    font-size: 35px;
+    color: rgb(30, 202, 30);
+}
+.warning button{
+    background-color: green;
+    color:white;
+    
+}
+.warning button:hover{
+    cursor: pointer;
+}
